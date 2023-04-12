@@ -9,3 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+//NIM   : 10119230
+//NAMA  : Akmal Rizqulloh
+//KELAS : IF_6
+//TANGGal : 12-04-2023

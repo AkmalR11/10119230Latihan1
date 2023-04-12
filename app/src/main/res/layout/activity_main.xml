@@ -1042,8 +1042,162 @@
 
             </RelativeLayout>
 
+            <RelativeLayout
+                android:id="@+id/frame43"
+                android:layout_width="343dp"
+                android:layout_height="86dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/frame43">
 
+                <RelativeLayout
+                    android:id="@+id/frame44"
+                    android:layout_width="311dp"
+                    android:layout_height="38dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/frame44">
+
+                    <TextView
+                        android:id="@+id/buat_laporan"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Buat Laporan"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+            </RelativeLayout>
         </RelativeLayout>
+        <GridLayout
+            android:layout_width="343dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:rowCount="2"
+            android:layout_gravity="center">
 
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Izin"
+                    android:fontFamily="@font/roboto"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:drawableTopCompat="@drawable/izin">
+
+                </TextView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Kehadiran"
+                    android:fontFamily="@font/roboto"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:drawableTopCompat="@drawable/kehadiran">
+
+                </TextView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Laporan"
+                    android:fontFamily="@font/roboto"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:drawableTopCompat="@drawable/laporan">
+
+                </TextView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Agenda"
+                    android:fontFamily="@font/roboto"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:drawableTopCompat="@drawable/agenda">
+
+                </TextView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                tools:ignore="TooManyViews">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Booking"
+                    android:fontFamily="@font/roboto"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:drawableTopCompat="@drawable/booking">
+
+                </TextView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Wiki"
+                    android:fontFamily="@font/roboto"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:drawableTopCompat="@drawable/wiki">
+
+                </TextView>
+            </RelativeLayout>
+        </GridLayout>
     </LinearLayout>
 </ScrollView>
+    <!--     NIM   : 10119230 -->
+    <!--     Nama   : Akmal Rizqulloh -->
+    <!--     Kelas  : IF-6 -->
+    <!--     Tanggal Pengerjaan : 12-04-2022 -->
